@@ -1,4 +1,12 @@
-﻿#time{
+﻿#backhome{
+    color:black;
+position:absolute;
+top:20px;
+width:100%;
+height:20px;
+text-align:left;
+}
+#time{
   color:green;
 position:absolute;
 top:20px;
