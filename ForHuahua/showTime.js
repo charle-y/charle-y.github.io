@@ -1,0 +1,2 @@
+document.getElementById('time').innerHTML='It is now --|| ' + new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay())+' ||--';
+setInterval("document.getElementById('time').innerHTML='It is now --|| ' + new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay())+' ||--';",1000);
