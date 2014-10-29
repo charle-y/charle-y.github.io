@@ -1,2 +1,2 @@
-document.getElementById('time').innerHTML='It is now --|| ' + new Date().toLocaleString()+' æ˜ŸæœŸ'+'æ—¥ä¸€äºŒä¸‰å››äº”å…­'.charAt(new Date().getDay())+' ||--';
-setInterval("document.getElementById('time').innerHTML='It is now --|| ' + new Date().toLocaleString()+' æ˜ŸæœŸ'+'æ—¥ä¸€äºŒä¸‰å››äº”å…­'.charAt(new Date().getDay())+' ||--';",1000);
+document.getElementById('time').innerHTML='It is now --|| ' + new Date().toLocaleString()+' ĞÇÆÚ'+'ÈÕÒ»¶şÈıËÄÎåÁù'.charAt(new Date().getDay())+' ||--';
+setInterval("document.getElementById('time').innerHTML='It is now --|| ' + new Date().toLocaleString()+' ĞÇÆÚ'+'ÈÕÒ»¶şÈıËÄÎåÁù'.charAt(new Date().getDay())+' ||--';",1000);
