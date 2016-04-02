@@ -18,7 +18,11 @@ text-align:right;
 img{
   height:80%;width:80%;
   }
-#player{
+#player1{
   float:right;
+  margin:5px;
+  }
+#player2{
+  float:left;
   margin:5px;
   }

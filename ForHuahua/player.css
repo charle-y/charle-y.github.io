@@ -1,0 +1,61 @@
+/*player css*/
+#jukebox {
+    background-color:#cc0000;
+    border-radius:10px;
+    color:#fff;
+    padding:10px;
+    font-family:helvetica, arial, verdana;
+    font-weight:bold;
+    width:300px;
+}
+#jukebox .loader {
+    border:1px solid #fff;
+    height:3px;
+    margin:10px 0px
+}
+#jukebox .load-progress {
+    width:0px;
+    background-color:#fff;
+    height:3px;
+}
+#jukebox .play-progress {
+    width:0px;
+    background-color:#9999cc;
+    height:3px;
+}
+	
+#jukebox .controls {
+    text-align:center;
+}
+	
+#jukebox .controls a {
+    display:inline-block;
+    width:33px;
+    height:33px;
+    margin:0px 14px;
+    overflow:hidden;
+    background-image:url('audio-controls.png');
+    background-repeat:no-repeat;
+}
+
+#jukebox .controls a:hover {
+    background-color:#ff9900;
+}
+
+#jukebox .controls a span {
+    display:none;
+}
+
+#jukebox .controls a.prev {
+    background-position:70% 0%;
+}
+#jukebox .controls a.next {
+    background-position:top right;
+}
+#jukebox .controls a.play {
+    background-position:top left;
+}
+#jukebox .controls a.pause {
+    background-position:33% 0%;
+}
+
